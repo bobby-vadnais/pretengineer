@@ -5,7 +5,7 @@
       <article class="post">
           <h3>{{ page.title }}</h3>
           {% if page.date %}
-          <span class="date">{{ page.date | date_to_string }}</span>
+          <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
           {% endif %}
           {% if page.summary %}
           <p>{{ page.summary }}</p>

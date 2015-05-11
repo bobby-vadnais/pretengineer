@@ -43,9 +43,11 @@ Go monitor!
 - [Librato add-on](https://addons.heroku.com/librato)
 
 [^1]: Okay, yea, your technical metrics can be really useful for debugging
-problems and alerting you early. But, conciously putting business metrics
-first helps you prioritize and focus on what's important.
+      problems and alerting you early. But, conciously putting business metrics
+      first helps you prioritize and focus on what's important.
+
 [^2]: Is there anything that doesn't?
+
 [^3]: They have a free plan that defaults to adding a bunch of Heroku-esque
-metrics such as dyno memory usage, but the custom metrics as noted
-above are only available on paid plans, which $19 is the cheapest of.
+      metrics such as dyno memory usage, but the custom metrics as noted
+      above are only available on paid plans, which $19 is the cheapest of.

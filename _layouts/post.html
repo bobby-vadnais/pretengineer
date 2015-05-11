@@ -7,27 +7,24 @@ $(function() {
 });
 </script>
 <div class="container">
-    <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8">
-      <div class="text-center">
-        <header>
-          <h1 class="post-title">{{ page.title }}</h1>
-        </header>
-      </div>
-      <article class="post">
-        {% if page.draft == true %}
-        <p class="draft">Hey! This is a draft. It hasn't been published yet.</p>
-        {% endif %}
-        {% if page.date %}
-        <p class="date">Originally written on {{ page.date | date_to_string }}.</p>
-        {% endif %}
-        {% if page.summary %}
-        <p class="summary">{{ page.summary }}</p>
-        {% endif %}
-        <section class="content">
-          <p>{{ content }}</p>
-        </section>
-      </article>
-    </div>
+  {% if page.draft == true %}
+  <p class="draft">Hey! This is a draft. It hasn't been published yet.</p>
+  {% endif %}
+
+  <header>
+    <h3 class="post-title">
+      {{ page.title }}
+    </h3>
+      {% if page.date %}
+        <small class="date">{{ page.date | date: '%B %d, %Y' }}</small>
+      {% endif %}
+  </header>
+
+  <article class="post">
+    <section class="content">
+      <p>{{ content }}</p>
+    </section>
+  </article>
 </div>
 {% include discussion.html %}
 {% include footer.html %}
