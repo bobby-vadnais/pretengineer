@@ -1,6 +1,6 @@
 safe: false
 lsi: false
-pygments: true
+highlighter: true
 permalink: /post/:title
 
 name: The Pretengineer
