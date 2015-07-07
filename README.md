@@ -13,14 +13,14 @@ to this list automatically.
 
 ### Make Changes
 
-Fork the Pretengineer in Github and make your changes. Then, open a descriptive
+Fork the Pretengineer in GitHub and make your changes. Then, open a descriptive
 pull request against this repo. All changes are appreciated, no matter how
 small.
 
 When changes are merged, they will automatically update http://pretengineer.com
 
-If your change is small, I recommend using the edit functinality built into
-Github. Go to the post or file you wish to edit and press the "Edit" button. You can
+If your change is small, I recommend using the edit functionality built into
+GitHub. Go to the post or file you wish to edit and press the "Edit" button. You can
 make your changes and commit with a message.
 
 Once you've made your changes, when you visit the repository you should
