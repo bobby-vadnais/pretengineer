@@ -199,7 +199,7 @@ could require multiple image formats.
 ## In Conclusion
 
 Packer can really help automate painful workflows in certain scenarios. It also
-lowers the bar to creating immutable infrastructure with lots of that good 'ole development/production
+lowers the bar to creating immutable infrastructure with lots of that good ole development/production
 parity.
 
 Packer has excellent documentation. Here is some further reading:
@@ -207,7 +207,7 @@ Packer has excellent documentation. Here is some further reading:
 - The Packer [Intro](http://www.packer.io/intro/), which walks you through using it and answers common questions
 - Packer Builders, such as [VMware](http://www.packer.io/docs/builders/vmware.html), [Amazon EBS](http://www.packer.io/docs/builders/amazon-ebs.html), [DigitalOcean](http://www.packer.io/docs/builders/digitalocean.html)
 - Packer Provisioners, such as [Puppet](http://www.packer.io/docs/provisioners/puppet-masterless.html), [Chef](http://www.packer.io/docs/provisioners/chef-solo.html) and [Salt](http://www.packer.io/docs/provisioners/salt-masterless.html)
-- The full Packer [Documentationn](http://www.packer.io/docs)
+- The full Packer [Documentation](http://www.packer.io/docs)
 
 [^1]: This, to me, is where things can be improved. It's a bit of a hassle
 to re-build images and re-launch them into your infrastructure. Using Amazon's tools,
